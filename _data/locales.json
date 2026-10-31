@@ -1,0 +1,792 @@
+{
+  "en": {
+    "lang": "en",
+    "intl": "en-US",
+    "name": "English",
+    "currency": "USD",
+    "title": "Service cost planner",
+    "description": "Plan a service price from explicit all-in costs with a minimum 40% markup. A local, five-language worksheet for human review.",
+    "brandSub": "Cost planning",
+    "skip": "Skip to calculator",
+    "home": "Home",
+    "catalog": "Apps",
+    "discovery": "Free Discovery",
+    "network": "App network",
+    "languages": "Language",
+    "eyebrow": "LOCAL CALCULATOR · SERVICE PLANNING",
+    "h1": "Build your estimate from the actual costs.",
+    "lead": "Enter each cost component, check the assumptions and compare a planning price using a markup of 40% or more. Start with your supplier evidence; this tool has no built-in rates or approved price list.",
+    "jump": "Plan a scenario",
+    "sample": "Load a fictional example",
+    "sampleNote": "Fictional example loaded. Replace every cost with your own evidence before commercial use.",
+    "privacy": "Calculations run in this tab. No costs are sent to a server or saved by this app. Language pages do not share your inputs.",
+    "formTitle": "1. Record the full cost",
+    "costInstruction": "Use one currency for every line. Enter 0 when a cost does not apply, and avoid counting a cost twice. A blank field means the cost is still unknown.",
+    "currencyLabel": "Currency",
+    "currencyHelp": "No currency conversion or exchange-rate lookup.",
+    "costLegend": "Cost components",
+    "decimalHelp": "Use a decimal point or comma, up to two decimal places, and no thousands separators.",
+    "costs": [
+      [
+        "supplier",
+        "Supplier service fees",
+        "Exclude labor and equipment listed separately below."
+      ],
+      [
+        "labor",
+        "Technician labor",
+        "Include labor not already covered by supplier fees."
+      ],
+      [
+        "equipment",
+        "Parts, equipment and rentals",
+        "Include acquisition or rental costs not listed above."
+      ],
+      [
+        "tax",
+        "Taxes",
+        "Use the tax costs reviewed for this scenario; the app does not calculate taxes."
+      ],
+      [
+        "travel",
+        "Travel",
+        "Include transport, lodging and subsistence."
+      ],
+      [
+        "freight",
+        "Freight and handling",
+        "Include shipping, handling and delivery charges."
+      ],
+      [
+        "import",
+        "Import and clearance",
+        "Exclude taxes or freight already included in another line."
+      ],
+      [
+        "other",
+        "Other documented costs",
+        "Explain any additional cost or assumption in the notes."
+      ]
+    ],
+    "markupTitle": "2. Choose the markup",
+    "markupLabel": "Markup on total cost (%)",
+    "markupHelp": "Minimum 40%. Markup is added to cost; it is different from gross margin. Enter a value from 40 to 1,000, with up to two decimals.",
+    "formula": "Planning price = total cost × (1 + markup ÷ 100). The price is rounded up to the next cent so rounding cannot reduce the requested markup.",
+    "reviewTitle": "3. Record your review",
+    "notesLabel": "Cost evidence and assumptions (optional)",
+    "notesPlaceholder": "For example: supplier quote reference, validity date, exclusions and unresolved cost items.",
+    "notesHelp": "Keep personal, client and confidential information out of a shared device. This note stays in the current tab.",
+    "reviewLabel": "I reviewed every cost line against current evidence and checked exclusions and duplicate costs.",
+    "reviewHelp": "This records your own review. It does not verify supplier evidence, tax treatment or quotation approval.",
+    "calculate": "Calculate planning price",
+    "reset": "Clear worksheet",
+    "formError": "Check the highlighted fields. No planning price is available until every cost and the markup are valid.",
+    "required": "Enter a value, or 0 when it does not apply.",
+    "moneyError": "Enter a nonnegative amount up to 1,000,000,000 with no thousands separators and at most two decimals.",
+    "markupError": "Enter a markup from 40 to 1,000 with at most two decimals.",
+    "zeroError": "Total cost must be greater than 0 before a planning price can be calculated.",
+    "resultTitle": "Your planning scenario",
+    "emptyResult": "Complete the cost lines to calculate. No fixed rates, tax assumptions or service commitments are added.",
+    "stale": "Inputs changed. Calculate again to update the scenario.",
+    "draft": "Draft scenario · evidence review pending",
+    "reviewed": "Costs reviewed by you · commercial approval pending",
+    "draftBody": "The values are inputs you supplied. Complete the cost-evidence review before using a price in a client quotation.",
+    "reviewedBody": "Your review is recorded locally. This is still a planning output, not an approved quotation or an instruction to purchase or dispatch.",
+    "total": "Total all-in cost",
+    "markupResult": "Markup entered",
+    "floor": "Price at the 40% minimum",
+    "price": "Planning price",
+    "profit": "Price less recorded cost",
+    "margin": "Gross margin on price",
+    "marginHelp": "Gross margin = (price − cost) ÷ price × 100. A 40% markup gives about 28.57% gross margin before any omitted costs.",
+    "breakdown": "Cost breakdown",
+    "print": "Print scenario",
+    "copy": "Copy scenario",
+    "copied": "Scenario copied. Review it before sharing.",
+    "copyFailed": "Copy is unavailable in this browser. Use Print scenario or select the visible results.",
+    "resultNotes": "Recorded evidence and assumptions",
+    "summaryHeading": "Zion service cost planning scenario",
+    "summaryStatus": "Review status",
+    "summaryScope": "Planning only. No approved client quote, purchase, reservation or dispatch.",
+    "workflowTitle": "Move from a scenario to a reviewable quote",
+    "steps": [
+      [
+        "Confirm the scope",
+        "Record the task, asset details, location, access requirements and service window. Use the datacenter service-request guide to collect the scope."
+      ],
+      [
+        "Validate the supplier evidence",
+        "Check the supplier’s written cost, currency, validity, coverage and exclusions. Make taxes, travel, freight and import costs explicit; do not treat unknown costs as zero."
+      ],
+      [
+        "Review the commercial price",
+        "Reconcile the full cost and apply at least 40% markup. Review scope, taxes and approvals before presenting a client quotation."
+      ],
+      [
+        "Request a separate commercial review",
+        "Review the scope and cost evidence before sharing a scenario through your normal commercial channel. Written acceptance, the corresponding purchase order and operational arrangements are handled separately. This worksheet does not purchase, reserve, commit a supplier or dispatch a team."
+      ]
+    ],
+    "exampleTitle": "Worked example",
+    "exampleText": "If the complete recorded cost is 1,000 and markup is 40%, the planning price is 1,400. The difference is 400, which is 28.57% of the price. This arithmetic example is not a market rate or a promised profit.",
+    "relatedTitle": "Continue the same planning task",
+    "related": [
+      [
+        "request",
+        "Prepare a datacenter service request",
+        "Define the task, assets, access and completion evidence."
+      ],
+      [
+        "operations",
+        "Operational planning tools",
+        "Review workload cost, SLA calculations and governance assumptions."
+      ],
+      [
+        "finops",
+        "FinOps scenario estimator",
+        "Compare cloud-cost assumptions and implementation expenses."
+      ],
+      [
+        "discovery",
+        "Free online Discovery",
+        "Organize your priorities and explore relevant tools."
+      ]
+    ],
+    "footer": "Quote Builder AI is the repository name. This app is a local arithmetic worksheet, with no AI generation, CRM integration, supplier lookup or automatic sending.",
+    "source": "Source code",
+    "noscript": "JavaScript is needed for the calculator. You can still read the cost checklist and use the formula manually: total cost × (1 + markup ÷ 100), with markup of at least 40%.",
+    "switchNote": "Changing language opens a separate worksheet."
+  },
+  "pt": {
+    "lang": "pt-BR",
+    "intl": "pt-BR",
+    "name": "Português",
+    "currency": "BRL",
+    "title": "Planejador de custos de serviço",
+    "description": "Planeje o preço de um serviço com custos totais explícitos e markup mínimo de 40%. Planilha local em cinco idiomas para revisão humana.",
+    "brandSub": "Planejamento de custos",
+    "skip": "Ir para a calculadora",
+    "home": "Início",
+    "catalog": "Apps",
+    "discovery": "Discovery gratuito",
+    "network": "Rede de apps",
+    "languages": "Idioma",
+    "eyebrow": "CALCULADORA LOCAL · PLANEJAMENTO DE SERVIÇOS",
+    "h1": "Monte a estimativa a partir dos custos reais.",
+    "lead": "Informe cada componente de custo, confira as premissas e compare um preço de planejamento com markup de 40% ou mais. Comece pelas evidências do fornecedor; a ferramenta não tem tarifas predefinidas nem tabela de preços aprovada.",
+    "jump": "Planejar um cenário",
+    "sample": "Carregar exemplo fictício",
+    "sampleNote": "Exemplo fictício carregado. Substitua todos os custos pelas suas evidências antes do uso comercial.",
+    "privacy": "Os cálculos acontecem nesta aba. O app não envia custos a um servidor nem salva os dados. As páginas de idiomas não compartilham os valores preenchidos.",
+    "formTitle": "1. Registre o custo completo",
+    "costInstruction": "Use a mesma moeda em todas as linhas. Informe 0 quando um custo não se aplicar e evite contá-lo duas vezes. Um campo vazio indica custo ainda desconhecido.",
+    "currencyLabel": "Moeda",
+    "currencyHelp": "Sem conversão de moedas ou consulta de câmbio.",
+    "costLegend": "Componentes de custo",
+    "decimalHelp": "Use vírgula ou ponto decimal, até duas casas decimais e nenhum separador de milhar.",
+    "costs": [
+      [
+        "supplier",
+        "Serviços do fornecedor",
+        "Exclua mão de obra e equipamentos discriminados separadamente abaixo."
+      ],
+      [
+        "labor",
+        "Mão de obra técnica",
+        "Inclua a mão de obra ainda não coberta pelos serviços do fornecedor."
+      ],
+      [
+        "equipment",
+        "Peças, equipamentos e locações",
+        "Inclua custos de aquisição ou locação ainda não registrados acima."
+      ],
+      [
+        "tax",
+        "Tributos",
+        "Use os custos tributários revisados para este cenário; o app não calcula tributos."
+      ],
+      [
+        "travel",
+        "Viagens",
+        "Inclua transporte, hospedagem e alimentação."
+      ],
+      [
+        "freight",
+        "Frete e manuseio",
+        "Inclua transporte de cargas, manuseio e entrega."
+      ],
+      [
+        "import",
+        "Importação e desembaraço",
+        "Exclua tributos ou frete já incluídos em outra linha."
+      ],
+      [
+        "other",
+        "Outros custos documentados",
+        "Explique qualquer custo adicional ou premissa nas observações."
+      ]
+    ],
+    "markupTitle": "2. Escolha o markup",
+    "markupLabel": "Markup sobre o custo total (%)",
+    "markupHelp": "Mínimo de 40%. O markup é acrescentado ao custo e difere da margem bruta. Informe de 40 a 1.000, com até duas casas decimais.",
+    "formula": "Preço de planejamento = custo total × (1 + markup ÷ 100). O preço é arredondado para cima até o próximo centavo para preservar o markup informado.",
+    "reviewTitle": "3. Registre sua revisão",
+    "notesLabel": "Evidências dos custos e premissas (opcional)",
+    "notesPlaceholder": "Por exemplo: referência da cotação do fornecedor, validade, exclusões e custos ainda pendentes.",
+    "notesHelp": "Evite dados pessoais, de clientes e confidenciais em um dispositivo compartilhado. Esta observação permanece na aba atual.",
+    "reviewLabel": "Revisei cada custo com base em evidências atuais e conferi exclusões e duplicidades.",
+    "reviewHelp": "Este campo registra sua própria revisão. Não verifica evidências do fornecedor, tratamento tributário ou aprovação da cotação.",
+    "calculate": "Calcular preço de planejamento",
+    "reset": "Limpar formulário",
+    "formError": "Confira os campos destacados. O preço de planejamento só aparece quando todos os custos e o markup forem válidos.",
+    "required": "Informe um valor ou 0 quando não se aplicar.",
+    "moneyError": "Informe um valor não negativo de até 1.000.000.000, sem separadores de milhar e com até duas casas decimais.",
+    "markupError": "Informe um markup de 40 a 1.000, com até duas casas decimais.",
+    "zeroError": "O custo total precisa ser maior que 0 para calcular um preço de planejamento.",
+    "resultTitle": "Seu cenário de planejamento",
+    "emptyResult": "Preencha os custos para calcular. A ferramenta não acrescenta tarifas fixas, premissas tributárias ou compromissos de serviço.",
+    "stale": "Os dados mudaram. Calcule novamente para atualizar o cenário.",
+    "draft": "Cenário preliminar · revisão de evidências pendente",
+    "reviewed": "Custos revisados por você · aprovação comercial pendente",
+    "draftBody": "Os valores foram informados por você. Conclua a revisão das evidências de custo antes de usar o preço em uma cotação ao cliente.",
+    "reviewedBody": "Sua revisão foi registrada localmente. Este resultado continua sendo um planejamento, sem constituir cotação aprovada ou instrução de compra ou despacho.",
+    "total": "Custo total completo",
+    "markupResult": "Markup informado",
+    "floor": "Preço com markup mínimo de 40%",
+    "price": "Preço de planejamento",
+    "profit": "Preço menos custo registrado",
+    "margin": "Margem bruta sobre o preço",
+    "marginHelp": "Margem bruta = (preço − custo) ÷ preço × 100. Um markup de 40% resulta em aproximadamente 28,57% de margem bruta antes de custos omitidos.",
+    "breakdown": "Detalhamento dos custos",
+    "print": "Imprimir cenário",
+    "copy": "Copiar cenário",
+    "copied": "Cenário copiado. Revise antes de compartilhar.",
+    "copyFailed": "A cópia não está disponível neste navegador. Use Imprimir cenário ou selecione os resultados visíveis.",
+    "resultNotes": "Evidências e premissas registradas",
+    "summaryHeading": "Cenário de planejamento de custos de serviço Zion",
+    "summaryStatus": "Situação da revisão",
+    "summaryScope": "Somente planejamento. Sem cotação aprovada ao cliente, compra, reserva ou despacho.",
+    "workflowTitle": "Do cenário à cotação pronta para revisão",
+    "steps": [
+      [
+        "Confirme o escopo",
+        "Registre tarefa, ativos, local, requisitos de acesso e janela de atendimento. Use o guia de solicitação de serviço em datacenter para reunir o escopo."
+      ],
+      [
+        "Valide as evidências do fornecedor",
+        "Confira custo por escrito, moeda, validade, cobertura e exclusões. Discrimine tributos, viagens, frete e importação; não trate custos desconhecidos como zero."
+      ],
+      [
+        "Revise o preço comercial",
+        "Concilie o custo completo e aplique markup de pelo menos 40%. Revise escopo, tributos e aprovações antes de apresentar a cotação ao cliente."
+      ],
+      [
+        "Solicite uma revisão comercial separada",
+        "Revise o escopo e as evidências de custo antes de compartilhar um cenário pelo seu canal comercial habitual. Aceite por escrito, pedido de compra correspondente e providências operacionais são tratados separadamente. Este formulário não faz compras, reservas, compromissos com fornecedores nem despacho de equipes."
+      ]
+    ],
+    "exampleTitle": "Exemplo de cálculo",
+    "exampleText": "Se o custo completo registrado for 1.000 e o markup for 40%, o preço de planejamento será 1.400. A diferença de 400 representa 28,57% do preço. Este exemplo aritmético não é tarifa de mercado nem promessa de lucro.",
+    "relatedTitle": "Continue o planejamento",
+    "related": [
+      [
+        "request",
+        "Prepare uma solicitação de serviço em datacenter",
+        "Defina tarefa, ativos, acesso e evidências de conclusão."
+      ],
+      [
+        "operations",
+        "Ferramentas de planejamento operacional",
+        "Revise custo de trabalho, cálculos de SLA e premissas de governança."
+      ],
+      [
+        "finops",
+        "Estimador de cenários FinOps",
+        "Compare premissas de custos de nuvem e despesas de implementação."
+      ],
+      [
+        "discovery",
+        "Discovery gratuito e online",
+        "Organize prioridades e explore ferramentas relevantes."
+      ]
+    ],
+    "footer": "Quote Builder AI é o nome do repositório. Este app é uma planilha aritmética local, sem geração por IA, integração com CRM, consulta a fornecedores ou envio automático.",
+    "source": "Código-fonte",
+    "noscript": "A calculadora precisa de JavaScript. Você ainda pode ler o checklist de custos e usar a fórmula manualmente: custo total × (1 + markup ÷ 100), com markup de pelo menos 40%.",
+    "switchNote": "Ao mudar o idioma, você abre um formulário separado."
+  },
+  "es": {
+    "lang": "es",
+    "intl": "es-ES",
+    "name": "Español",
+    "currency": "USD",
+    "title": "Planificador de costes de servicio",
+    "description": "Planifique el precio de un servicio con costes totales explícitos y un recargo mínimo del 40%. Hoja local en cinco idiomas para revisión humana.",
+    "brandSub": "Planificación de costes",
+    "skip": "Ir a la calculadora",
+    "home": "Inicio",
+    "catalog": "Apps",
+    "discovery": "Discovery gratuito",
+    "network": "Red de apps",
+    "languages": "Idioma",
+    "eyebrow": "CALCULADORA LOCAL · PLANIFICACIÓN DE SERVICIOS",
+    "h1": "Prepare la estimación a partir de los costes reales.",
+    "lead": "Introduzca cada componente de coste, compruebe los supuestos y compare un precio de planificación con un recargo del 40% o más. Empiece por las evidencias del proveedor; la herramienta no incluye tarifas predefinidas ni una lista de precios aprobada.",
+    "jump": "Planificar un escenario",
+    "sample": "Cargar un ejemplo ficticio",
+    "sampleNote": "Ejemplo ficticio cargado. Sustituya todos los costes por sus propias evidencias antes del uso comercial.",
+    "privacy": "Los cálculos se realizan en esta pestaña. La app no envía costes a un servidor ni guarda los datos. Las páginas de idiomas no comparten los valores introducidos.",
+    "formTitle": "1. Registre el coste completo",
+    "costInstruction": "Utilice una sola moneda en todas las líneas. Introduzca 0 cuando un coste no se aplique y evite contabilizarlo dos veces. Un campo vacío indica un coste aún desconocido.",
+    "currencyLabel": "Moneda",
+    "currencyHelp": "Sin conversión de monedas ni consulta de tipos de cambio.",
+    "costLegend": "Componentes del coste",
+    "decimalHelp": "Utilice punto o coma decimal, hasta dos decimales y ningún separador de miles.",
+    "costs": [
+      [
+        "supplier",
+        "Servicios del proveedor",
+        "Excluya la mano de obra y los equipos detallados por separado abajo."
+      ],
+      [
+        "labor",
+        "Mano de obra técnica",
+        "Incluya la mano de obra no cubierta por los servicios del proveedor."
+      ],
+      [
+        "equipment",
+        "Piezas, equipos y alquileres",
+        "Incluya costes de compra o alquiler no registrados arriba."
+      ],
+      [
+        "tax",
+        "Impuestos",
+        "Utilice los costes tributarios revisados para este escenario; la app no calcula impuestos."
+      ],
+      [
+        "travel",
+        "Desplazamientos",
+        "Incluya transporte, alojamiento y manutención."
+      ],
+      [
+        "freight",
+        "Transporte y manipulación",
+        "Incluya envío de mercancías, manipulación y entrega."
+      ],
+      [
+        "import",
+        "Importación y despacho aduanero",
+        "Excluya impuestos o transporte ya incluidos en otra línea."
+      ],
+      [
+        "other",
+        "Otros costes documentados",
+        "Explique cualquier coste adicional o supuesto en las notas."
+      ]
+    ],
+    "markupTitle": "2. Elija el recargo",
+    "markupLabel": "Recargo sobre el coste total (%)",
+    "markupHelp": "Mínimo del 40%. El recargo se añade al coste y es distinto del margen bruto. Introduzca un valor entre 40 y 1.000, con hasta dos decimales.",
+    "formula": "Precio de planificación = coste total × (1 + recargo ÷ 100). El precio se redondea hacia arriba al siguiente céntimo para mantener el recargo indicado.",
+    "reviewTitle": "3. Registre su revisión",
+    "notesLabel": "Evidencias de costes y supuestos (opcional)",
+    "notesPlaceholder": "Por ejemplo: referencia de oferta del proveedor, fecha de validez, exclusiones y costes pendientes.",
+    "notesHelp": "Evite información personal, de clientes o confidencial en un dispositivo compartido. Esta nota permanece en la pestaña actual.",
+    "reviewLabel": "He revisado cada coste con evidencias actuales y he comprobado exclusiones y duplicidades.",
+    "reviewHelp": "Este campo registra su propia revisión. No verifica evidencias del proveedor, tratamiento tributario ni aprobación de la oferta.",
+    "calculate": "Calcular precio de planificación",
+    "reset": "Vaciar formulario",
+    "formError": "Revise los campos destacados. El precio de planificación solo aparece cuando todos los costes y el recargo son válidos.",
+    "required": "Introduzca un valor o 0 si no se aplica.",
+    "moneyError": "Introduzca un importe no negativo de hasta 1.000.000.000, sin separadores de miles y con un máximo de dos decimales.",
+    "markupError": "Introduzca un recargo entre 40 y 1.000, con un máximo de dos decimales.",
+    "zeroError": "El coste total debe ser mayor que 0 para calcular un precio de planificación.",
+    "resultTitle": "Su escenario de planificación",
+    "emptyResult": "Complete los costes para calcular. No se añaden tarifas fijas, supuestos tributarios ni compromisos de servicio.",
+    "stale": "Los datos han cambiado. Calcule de nuevo para actualizar el escenario.",
+    "draft": "Escenario preliminar · revisión de evidencias pendiente",
+    "reviewed": "Costes revisados por usted · aprobación comercial pendiente",
+    "draftBody": "Los valores los ha introducido usted. Complete la revisión de evidencias de costes antes de usar un precio en una oferta al cliente.",
+    "reviewedBody": "Su revisión se ha registrado localmente. Este resultado sigue siendo una planificación, no una oferta aprobada ni una instrucción de compra o envío de personal.",
+    "total": "Coste total completo",
+    "markupResult": "Recargo indicado",
+    "floor": "Precio con recargo mínimo del 40%",
+    "price": "Precio de planificación",
+    "profit": "Precio menos coste registrado",
+    "margin": "Margen bruto sobre el precio",
+    "marginHelp": "Margen bruto = (precio − coste) ÷ precio × 100. Un recargo del 40% da aproximadamente un 28,57% de margen bruto antes de costes omitidos.",
+    "breakdown": "Desglose de costes",
+    "print": "Imprimir escenario",
+    "copy": "Copiar escenario",
+    "copied": "Escenario copiado. Revíselo antes de compartirlo.",
+    "copyFailed": "La copia no está disponible en este navegador. Utilice Imprimir escenario o seleccione los resultados visibles.",
+    "resultNotes": "Evidencias y supuestos registrados",
+    "summaryHeading": "Escenario de planificación de costes de servicio Zion",
+    "summaryStatus": "Estado de revisión",
+    "summaryScope": "Solo planificación. Sin oferta aprobada al cliente, compra, reserva ni envío de personal.",
+    "workflowTitle": "Del escenario a una oferta lista para revisión",
+    "steps": [
+      [
+        "Confirme el alcance",
+        "Registre tarea, activos, ubicación, requisitos de acceso y ventana de servicio. Utilice la guía de solicitud de servicio en centro de datos para reunir el alcance."
+      ],
+      [
+        "Valide las evidencias del proveedor",
+        "Compruebe el coste por escrito, moneda, validez, cobertura y exclusiones. Detalle impuestos, desplazamientos, transporte e importación; no trate los costes desconocidos como cero."
+      ],
+      [
+        "Revise el precio comercial",
+        "Concilie el coste completo y aplique un recargo de al menos el 40%. Revise alcance, impuestos y aprobaciones antes de presentar la oferta al cliente."
+      ],
+      [
+        "Solicite una revisión comercial independiente",
+        "Revise el alcance y las evidencias de costes antes de compartir un escenario por su canal comercial habitual. La aceptación por escrito, la orden de compra correspondiente y los preparativos operativos se gestionan por separado. Esta hoja no compra, reserva, compromete a un proveedor ni envía personal."
+      ]
+    ],
+    "exampleTitle": "Ejemplo de cálculo",
+    "exampleText": "Si el coste completo registrado es 1.000 y el recargo es del 40%, el precio de planificación es 1.400. La diferencia de 400 representa el 28,57% del precio. Este ejemplo aritmético no es una tarifa de mercado ni una promesa de beneficio.",
+    "relatedTitle": "Continúe con la planificación",
+    "related": [
+      [
+        "request",
+        "Prepare una solicitud de servicio en centro de datos",
+        "Defina tarea, activos, acceso y evidencias de finalización."
+      ],
+      [
+        "operations",
+        "Herramientas de planificación operativa",
+        "Revise el coste del trabajo, cálculos de SLA y supuestos de gobernanza."
+      ],
+      [
+        "finops",
+        "Estimador de escenarios FinOps",
+        "Compare supuestos de costes de nube y gastos de implementación."
+      ],
+      [
+        "discovery",
+        "Discovery gratuito en línea",
+        "Organice prioridades y explore herramientas relevantes."
+      ]
+    ],
+    "footer": "Quote Builder AI es el nombre del repositorio. Esta app es una hoja aritmética local, sin generación con IA, integración con CRM, consulta a proveedores ni envío automático.",
+    "source": "Código fuente",
+    "noscript": "La calculadora requiere JavaScript. Puede leer la lista de costes y aplicar la fórmula manualmente: coste total × (1 + recargo ÷ 100), con un recargo de al menos el 40%.",
+    "switchNote": "Al cambiar de idioma se abre una hoja independiente."
+  },
+  "fr": {
+    "lang": "fr",
+    "intl": "fr-FR",
+    "name": "Français",
+    "currency": "EUR",
+    "title": "Planificateur de coûts de service",
+    "description": "Préparez un prix de service à partir de coûts complets explicites avec une majoration minimale de 40 %. Un outil local en cinq langues pour la revue humaine.",
+    "brandSub": "Planification des coûts",
+    "skip": "Aller au calculateur",
+    "home": "Accueil",
+    "catalog": "Apps",
+    "discovery": "Discovery gratuit",
+    "network": "Réseau d’apps",
+    "languages": "Langue",
+    "eyebrow": "CALCULATEUR LOCAL · PLANIFICATION DE SERVICES",
+    "h1": "Construisez votre estimation à partir des coûts réels.",
+    "lead": "Saisissez chaque composante du coût, vérifiez les hypothèses et comparez un prix de planification avec une majoration de 40 % ou plus. Partez des justificatifs du fournisseur ; cet outil ne contient aucun tarif prédéfini ni grille de prix approuvée.",
+    "jump": "Préparer un scénario",
+    "sample": "Charger un exemple fictif",
+    "sampleNote": "Exemple fictif chargé. Remplacez chaque coût par vos propres justificatifs avant tout usage commercial.",
+    "privacy": "Les calculs sont effectués dans cet onglet. L’app n’envoie aucun coût à un serveur et ne sauvegarde pas vos données. Les pages de langue ne partagent pas vos saisies.",
+    "formTitle": "1. Enregistrez le coût complet",
+    "costInstruction": "Utilisez une seule devise pour toutes les lignes. Saisissez 0 si un coût ne s’applique pas et évitez de le compter deux fois. Un champ vide indique un coût encore inconnu.",
+    "currencyLabel": "Devise",
+    "currencyHelp": "Aucune conversion ni consultation des taux de change.",
+    "costLegend": "Composantes du coût",
+    "decimalHelp": "Utilisez un point ou une virgule décimale, deux décimales au maximum et aucun séparateur de milliers.",
+    "costs": [
+      [
+        "supplier",
+        "Prestations du fournisseur",
+        "Excluez la main-d’œuvre et le matériel détaillés séparément ci-dessous."
+      ],
+      [
+        "labor",
+        "Main-d’œuvre technique",
+        "Incluez la main-d’œuvre non couverte par les prestations du fournisseur."
+      ],
+      [
+        "equipment",
+        "Pièces, équipements et locations",
+        "Incluez les coûts d’achat ou de location non enregistrés ci-dessus."
+      ],
+      [
+        "tax",
+        "Taxes",
+        "Utilisez les coûts fiscaux examinés pour ce scénario ; l’app ne calcule pas les taxes."
+      ],
+      [
+        "travel",
+        "Déplacements",
+        "Incluez le transport, l’hébergement et les repas."
+      ],
+      [
+        "freight",
+        "Fret et manutention",
+        "Incluez l’expédition, la manutention et la livraison."
+      ],
+      [
+        "import",
+        "Importation et dédouanement",
+        "Excluez les taxes ou le fret déjà inclus dans une autre ligne."
+      ],
+      [
+        "other",
+        "Autres coûts documentés",
+        "Expliquez tout coût supplémentaire ou hypothèse dans les notes."
+      ]
+    ],
+    "markupTitle": "2. Choisissez la majoration",
+    "markupLabel": "Majoration du coût total (%)",
+    "markupHelp": "Minimum 40 %. La majoration s’ajoute au coût et diffère du taux de marge sur le prix de vente. Saisissez une valeur entre 40 et 1 000, avec deux décimales au maximum.",
+    "formula": "Prix de planification = coût total × (1 + majoration ÷ 100). Le prix est arrondi au centime supérieur pour préserver la majoration indiquée.",
+    "reviewTitle": "3. Enregistrez votre revue",
+    "notesLabel": "Justificatifs des coûts et hypothèses (facultatif)",
+    "notesPlaceholder": "Par exemple : référence du devis fournisseur, date de validité, exclusions et coûts à préciser.",
+    "notesHelp": "Évitez les informations personnelles, client ou confidentielles sur un appareil partagé. Cette note reste dans l’onglet actuel.",
+    "reviewLabel": "J’ai vérifié chaque coût à partir de justificatifs actuels et contrôlé les exclusions et doublons.",
+    "reviewHelp": "Ce champ enregistre votre propre revue. Il ne vérifie ni les justificatifs fournisseur, ni le traitement fiscal, ni l’approbation du devis.",
+    "calculate": "Calculer le prix de planification",
+    "reset": "Effacer le formulaire",
+    "formError": "Vérifiez les champs signalés. Le prix de planification apparaît uniquement lorsque tous les coûts et la majoration sont valides.",
+    "required": "Saisissez un montant, ou 0 si ce coût ne s’applique pas.",
+    "moneyError": "Saisissez un montant positif ou nul jusqu’à 1 000 000 000, sans séparateur de milliers et avec deux décimales au maximum.",
+    "markupError": "Saisissez une majoration entre 40 et 1 000, avec deux décimales au maximum.",
+    "zeroError": "Le coût total doit être supérieur à 0 pour calculer un prix de planification.",
+    "resultTitle": "Votre scénario de planification",
+    "emptyResult": "Renseignez les coûts pour calculer. Aucun tarif fixe, hypothèse fiscale ou engagement de service n’est ajouté.",
+    "stale": "Les données ont changé. Relancez le calcul pour actualiser le scénario.",
+    "draft": "Scénario provisoire · revue des justificatifs en attente",
+    "reviewed": "Coûts revus par vous · approbation commerciale en attente",
+    "draftBody": "Vous avez fourni les montants. Terminez la revue des justificatifs avant d’utiliser un prix dans un devis client.",
+    "reviewedBody": "Votre revue est enregistrée localement. Ce résultat reste un outil de planification, pas un devis approuvé ni une instruction d’achat ou d’intervention.",
+    "total": "Coût total complet",
+    "markupResult": "Majoration indiquée",
+    "floor": "Prix à la majoration minimale de 40 %",
+    "price": "Prix de planification",
+    "profit": "Prix moins coût enregistré",
+    "margin": "Marge brute rapportée au prix",
+    "marginHelp": "Marge brute rapportée au prix = (prix − coût) ÷ prix × 100. Une majoration de 40 % donne environ 28,57 % de marge brute avant les coûts omis.",
+    "breakdown": "Détail des coûts",
+    "print": "Imprimer le scénario",
+    "copy": "Copier le scénario",
+    "copied": "Scénario copié. Relisez-le avant de le partager.",
+    "copyFailed": "La copie est indisponible dans ce navigateur. Utilisez Imprimer le scénario ou sélectionnez les résultats visibles.",
+    "resultNotes": "Justificatifs et hypothèses enregistrés",
+    "summaryHeading": "Scénario Zion de planification des coûts de service",
+    "summaryStatus": "État de la revue",
+    "summaryScope": "Planification uniquement. Aucun devis client approuvé, achat, réservation ou intervention autorisé.",
+    "workflowTitle": "Du scénario à un devis prêt pour la revue",
+    "steps": [
+      [
+        "Confirmez le périmètre",
+        "Précisez la tâche, les actifs, le lieu, les conditions d’accès et le créneau d’intervention. Utilisez le guide de demande de service en datacenter pour recueillir le périmètre."
+      ],
+      [
+        "Validez les justificatifs fournisseur",
+        "Vérifiez le coût écrit, la devise, la validité, la couverture et les exclusions. Détaillez taxes, déplacements, fret et importation ; ne remplacez pas un coût inconnu par zéro."
+      ],
+      [
+        "Revoyez le prix commercial",
+        "Rapprochez le coût complet et appliquez au moins 40 % de majoration. Examinez le périmètre, les taxes et les approbations avant de présenter le devis au client."
+      ],
+      [
+        "Demandez une revue commerciale distincte",
+        "Vérifiez le périmètre et les justificatifs de coûts avant de partager un scénario par votre canal commercial habituel. L’acceptation écrite, le bon de commande correspondant et les dispositions opérationnelles sont traités séparément. Cet outil n’achète, ne réserve, n’engage aucun fournisseur et n’envoie aucune équipe."
+      ]
+    ],
+    "exampleTitle": "Exemple de calcul",
+    "exampleText": "Si le coût complet enregistré est de 1 000 et la majoration de 40 %, le prix de planification est de 1 400. La différence de 400 représente 28,57 % du prix. Cet exemple arithmétique n’est ni un tarif de marché ni une promesse de bénéfice.",
+    "relatedTitle": "Poursuivez votre planification",
+    "related": [
+      [
+        "request",
+        "Préparez une demande de service en datacenter",
+        "Définissez la tâche, les actifs, l’accès et les preuves de réalisation."
+      ],
+      [
+        "operations",
+        "Outils de planification opérationnelle",
+        "Examinez le coût du travail, les calculs de SLA et les hypothèses de gouvernance."
+      ],
+      [
+        "finops",
+        "Estimateur de scénarios FinOps",
+        "Comparez les hypothèses de coûts cloud et les dépenses de mise en œuvre."
+      ],
+      [
+        "discovery",
+        "Discovery gratuit en ligne",
+        "Organisez vos priorités et explorez les outils pertinents."
+      ]
+    ],
+    "footer": "Quote Builder AI est le nom du dépôt. Cette app est une feuille de calcul arithmétique locale, sans génération par IA, intégration CRM, consultation fournisseur ou envoi automatique.",
+    "source": "Code source",
+    "noscript": "Le calculateur nécessite JavaScript. Vous pouvez lire la liste des coûts et utiliser manuellement la formule : coût total × (1 + majoration ÷ 100), avec une majoration d’au moins 40 %.",
+    "switchNote": "Changer de langue ouvre une feuille de calcul distincte."
+  },
+  "de": {
+    "lang": "de",
+    "intl": "de-DE",
+    "name": "Deutsch",
+    "currency": "EUR",
+    "title": "Planer für Servicekosten",
+    "description": "Planen Sie einen Servicepreis aus vollständigen, einzeln ausgewiesenen Kosten mit mindestens 40 % Aufschlag. Ein lokales Arbeitsblatt in fünf Sprachen zur menschlichen Prüfung.",
+    "brandSub": "Kostenplanung",
+    "skip": "Zum Rechner springen",
+    "home": "Startseite",
+    "catalog": "Apps",
+    "discovery": "Kostenloser Discovery",
+    "network": "App-Netzwerk",
+    "languages": "Sprache",
+    "eyebrow": "LOKALER RECHNER · SERVICEPLANUNG",
+    "h1": "Erstellen Sie die Schätzung aus den tatsächlichen Kosten.",
+    "lead": "Erfassen Sie jeden Kostenbestandteil, prüfen Sie die Annahmen und vergleichen Sie einen Planungspreis mit einem Aufschlag von mindestens 40 %. Beginnen Sie mit den Lieferantennachweisen; dieses Tool enthält weder feste Tarife noch eine freigegebene Preisliste.",
+    "jump": "Szenario planen",
+    "sample": "Fiktives Beispiel laden",
+    "sampleNote": "Fiktives Beispiel geladen. Ersetzen Sie vor der geschäftlichen Nutzung alle Kosten durch eigene Nachweise.",
+    "privacy": "Die Berechnungen erfolgen in diesem Tab. Die App sendet keine Kosten an einen Server und speichert keine Daten. Die Sprachseiten übernehmen Ihre Eingaben nicht.",
+    "formTitle": "1. Vollständige Kosten erfassen",
+    "costInstruction": "Verwenden Sie in allen Zeilen dieselbe Währung. Geben Sie 0 ein, wenn Kosten nicht anfallen, und vermeiden Sie Doppelzählungen. Ein leeres Feld bedeutet, dass die Kosten noch unbekannt sind.",
+    "currencyLabel": "Währung",
+    "currencyHelp": "Keine Währungsumrechnung und keine Abfrage von Wechselkursen.",
+    "costLegend": "Kostenbestandteile",
+    "decimalHelp": "Verwenden Sie Punkt oder Komma als Dezimalzeichen, höchstens zwei Nachkommastellen und keine Tausendertrennzeichen.",
+    "costs": [
+      [
+        "supplier",
+        "Leistungen des Lieferanten",
+        "Schließen Sie Personal und Geräte aus, die unten gesondert erfasst werden."
+      ],
+      [
+        "labor",
+        "Technische Arbeitsleistung",
+        "Erfassen Sie Arbeitskosten, die noch nicht in den Lieferantenleistungen enthalten sind."
+      ],
+      [
+        "equipment",
+        "Teile, Geräte und Mieten",
+        "Erfassen Sie Anschaffungs- oder Mietkosten, die oben noch fehlen."
+      ],
+      [
+        "tax",
+        "Steuern",
+        "Verwenden Sie die für dieses Szenario geprüften Steuerkosten; die App berechnet keine Steuern."
+      ],
+      [
+        "travel",
+        "Reisen",
+        "Berücksichtigen Sie Transport, Unterkunft und Verpflegung."
+      ],
+      [
+        "freight",
+        "Fracht und Abwicklung",
+        "Berücksichtigen Sie Versand, Handhabung und Zustellung."
+      ],
+      [
+        "import",
+        "Einfuhr und Zollabfertigung",
+        "Schließen Sie Steuern oder Fracht aus, die bereits in einer anderen Zeile stehen."
+      ],
+      [
+        "other",
+        "Weitere belegte Kosten",
+        "Erläutern Sie zusätzliche Kosten oder Annahmen in den Notizen."
+      ]
+    ],
+    "markupTitle": "2. Aufschlag auswählen",
+    "markupLabel": "Aufschlag auf die Gesamtkosten (%)",
+    "markupHelp": "Mindestens 40 %. Der Aufschlag wird zu den Kosten addiert und unterscheidet sich von der Bruttomarge. Geben Sie 40 bis 1.000 mit höchstens zwei Nachkommastellen ein.",
+    "formula": "Planungspreis = Gesamtkosten × (1 + Aufschlag ÷ 100). Der Preis wird auf den nächsten Cent aufgerundet, damit der eingegebene Aufschlag erhalten bleibt.",
+    "reviewTitle": "3. Eigene Prüfung festhalten",
+    "notesLabel": "Kostennachweise und Annahmen (optional)",
+    "notesPlaceholder": "Zum Beispiel: Lieferantenangebotsreferenz, Gültigkeit, Ausschlüsse und offene Kosten.",
+    "notesHelp": "Vermeiden Sie auf gemeinsam genutzten Geräten persönliche, kundenbezogene und vertrauliche Informationen. Diese Notiz bleibt im aktuellen Tab.",
+    "reviewLabel": "Ich habe alle Kosten anhand aktueller Nachweise sowie Ausschlüsse und Doppelzählungen geprüft.",
+    "reviewHelp": "Hier wird Ihre eigene Prüfung festgehalten. Lieferantennachweise, steuerliche Behandlung und Angebotsfreigabe werden dadurch nicht verifiziert.",
+    "calculate": "Planungspreis berechnen",
+    "reset": "Formular leeren",
+    "formError": "Prüfen Sie die markierten Felder. Ein Planungspreis erscheint erst, wenn alle Kosten und der Aufschlag gültig sind.",
+    "required": "Geben Sie einen Betrag ein oder 0, wenn keine Kosten anfallen.",
+    "moneyError": "Geben Sie einen nichtnegativen Betrag bis 1.000.000.000 ohne Tausendertrennzeichen und mit höchstens zwei Nachkommastellen ein.",
+    "markupError": "Geben Sie einen Aufschlag von 40 bis 1.000 mit höchstens zwei Nachkommastellen ein.",
+    "zeroError": "Die Gesamtkosten müssen größer als 0 sein, um einen Planungspreis zu berechnen.",
+    "resultTitle": "Ihr Planungsszenario",
+    "emptyResult": "Füllen Sie die Kostenzeilen aus, um zu rechnen. Feste Tarife, Steuerannahmen oder Servicezusagen werden nicht ergänzt.",
+    "stale": "Die Eingaben wurden geändert. Berechnen Sie das Szenario erneut.",
+    "draft": "Entwurf · Prüfung der Nachweise ausstehend",
+    "reviewed": "Kosten von Ihnen geprüft · kommerzielle Freigabe ausstehend",
+    "draftBody": "Sie haben die Werte eingegeben. Schließen Sie die Prüfung der Kostennachweise ab, bevor Sie einen Preis in einem Kundenangebot verwenden.",
+    "reviewedBody": "Ihre Prüfung ist lokal festgehalten. Das Ergebnis dient weiterhin der Planung und ist weder ein freigegebenes Angebot noch ein Einkaufs- oder Einsatzauftrag.",
+    "total": "Vollständige Gesamtkosten",
+    "markupResult": "Eingegebener Aufschlag",
+    "floor": "Preis beim Mindestaufschlag von 40 %",
+    "price": "Planungspreis",
+    "profit": "Preis abzüglich erfasster Kosten",
+    "margin": "Bruttomarge bezogen auf den Preis",
+    "marginHelp": "Bruttomarge = (Preis − Kosten) ÷ Preis × 100. Ein Aufschlag von 40 % ergibt rund 28,57 % Bruttomarge vor nicht erfassten Kosten.",
+    "breakdown": "Kostenaufstellung",
+    "print": "Szenario drucken",
+    "copy": "Szenario kopieren",
+    "copied": "Szenario kopiert. Prüfen Sie es vor der Weitergabe.",
+    "copyFailed": "Kopieren ist in diesem Browser nicht verfügbar. Drucken Sie das Szenario oder markieren Sie die sichtbaren Ergebnisse.",
+    "resultNotes": "Erfasste Nachweise und Annahmen",
+    "summaryHeading": "Zion-Planungsszenario für Servicekosten",
+    "summaryStatus": "Prüfstatus",
+    "summaryScope": "Nur zur Planung. Kein freigegebenes Kundenangebot, Einkauf, keine Reservierung und kein Einsatzauftrag.",
+    "workflowTitle": "Vom Szenario zum prüfbaren Angebot",
+    "steps": [
+      [
+        "Leistungsumfang bestätigen",
+        "Erfassen Sie Aufgabe, Geräte, Standort, Zugangsvoraussetzungen und Servicezeitfenster. Nutzen Sie den Leitfaden für Datacenter-Serviceanfragen zur Vorbereitung."
+      ],
+      [
+        "Lieferantennachweise prüfen",
+        "Prüfen Sie schriftliche Kosten, Währung, Gültigkeit, Abdeckung und Ausschlüsse. Weisen Sie Steuern, Reisen, Fracht und Einfuhrkosten einzeln aus; setzen Sie unbekannte Kosten nicht auf null."
+      ],
+      [
+        "Verkaufspreis prüfen",
+        "Gleichen Sie die vollständigen Kosten ab und wenden Sie mindestens 40 % Aufschlag an. Prüfen Sie Umfang, Steuern und Freigaben vor dem Kundenangebot."
+      ],
+      [
+        "Separate kommerzielle Prüfung anfragen",
+        "Prüfen Sie Umfang und Kostennachweise, bevor Sie ein Szenario über Ihren üblichen geschäftlichen Kanal weitergeben. Schriftliche Annahme, zugehörige Bestellung und operative Absprachen werden separat behandelt. Dieses Arbeitsblatt tätigt keine Einkäufe, Reservierungen, Lieferantenzusagen oder Einsätze."
+      ]
+    ],
+    "exampleTitle": "Rechenbeispiel",
+    "exampleText": "Bei vollständigen erfassten Kosten von 1.000 und 40 % Aufschlag beträgt der Planungspreis 1.400. Die Differenz von 400 entspricht 28,57 % des Preises. Dieses Rechenbeispiel ist kein Marktpreis und kein Gewinnversprechen.",
+    "relatedTitle": "Planung fortsetzen",
+    "related": [
+      [
+        "request",
+        "Datacenter-Serviceanfrage vorbereiten",
+        "Definieren Sie Aufgabe, Geräte, Zugang und Abschlussnachweise."
+      ],
+      [
+        "operations",
+        "Werkzeuge zur Betriebsplanung",
+        "Prüfen Sie Arbeitskosten, SLA-Berechnungen und Governance-Annahmen."
+      ],
+      [
+        "finops",
+        "FinOps-Szenarienrechner",
+        "Vergleichen Sie Annahmen zu Cloudkosten und Umsetzungsausgaben."
+      ],
+      [
+        "discovery",
+        "Kostenloser Online-Discovery",
+        "Ordnen Sie Ihre Prioritäten und erkunden Sie passende Werkzeuge."
+      ]
+    ],
+    "footer": "Quote Builder AI ist der Repository-Name. Diese App ist ein lokales Rechenblatt ohne KI-Generierung, CRM-Anbindung, Lieferantenabfrage oder automatischen Versand.",
+    "source": "Quellcode",
+    "noscript": "Der Rechner benötigt JavaScript. Sie können die Kostenliste lesen und die Formel manuell anwenden: Gesamtkosten × (1 + Aufschlag ÷ 100), mit mindestens 40 % Aufschlag.",
+    "switchNote": "Ein Sprachwechsel öffnet ein separates Arbeitsblatt."
+  }
+}
