@@ -1,0 +1,28 @@
+name: Service cost planner checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: service-cost-planner-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  planner:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Verify generated language editions
+        run: python3 scripts/render.py --check
+      - name: Verify arithmetic and interactive states
+        run: node --test tests/calculation.test.cjs tests/browser-state.test.cjs
+      - name: Verify language navigation and accessible markup
+        run: python3 -m unittest discover -s tests -p 'test_*.py'

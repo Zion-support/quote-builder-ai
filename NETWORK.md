@@ -1,14 +1,13 @@
-# 🌐 Zion App Network — Interlinks
+# Zion App Network — service cost planning
 
-**quote-builder-ai** is part of the Zion Tech Group app network (630+ apps).
+The Service Cost Planner helps turn explicit cost inputs into a reviewable pricing scenario. It is a local worksheet, not an integrated quote, procurement or dispatch system.
 
-- 🗂️ [Master Index](https://github.com/Zion-support/zion-network/blob/main/APPS_NETWORK.md)
-- 🗂️ Category: [Business Tools & Calculators](https://github.com/Zion-support/zion-network/blob/main/network/business-tools-calculators.md)
+| Continue the task | Resource |
+| --- | --- |
+| Collect the scope | [Datacenter service-request guide](https://ziontechgroup.com/zion-app-network/datacenter-service-request-guide-2026.html) |
+| Review workload and reliability assumptions | [Operational planning tools](https://ziontechgroup.com/apps/operational-planning-tools.html) |
+| Compare cloud-cost scenarios | [FinOps scenario estimator](https://ziontechgroup.com/apps/finops-scenario-estimator.html) |
+| Explore related resources | [Zion App Network](https://ziontechgroup.com/zion-app-network/) |
+| Organize priorities | [Free online Discovery](https://ziontechgroup.com/discovery/) |
 
-## Related apps
-- [proposal-builder-ai](https://github.com/Zion-support/proposal-builder-ai) — branded proposals & SOWs
-- [roi-calculator](https://github.com/Zion-support/roi-calculator) — AI ROI estimation
-- [contract-clause-reviewer](https://github.com/Zion-support/contract-clause-reviewer) — clause risk review
-
----
-🌐 [Network Index](https://github.com/Zion-support/zion-network/blob/main/APPS_NETWORK.md) · [Status](https://zion-support.github.io/zion-status/) · [Plans](https://zion-support.github.io/zion-plans/) · [Portal](https://zion-support.github.io/zion-portal/)
+Each app edition links to the corresponding English, Portuguese, Spanish, French or German journey. The [source repository](https://github.com/Zion-support/quote-builder-ai) retains its established name and public root URL.

@@ -1,11 +1,10 @@
-# 🔗 Zion AI App Network
+# Zion App Network
 
-Part of the **Zion AI App Network** — 678+ interlinked AI apps, tools and playbooks by [Zion Tech Group](https://ziontechgroup.com).
+Part of the [Zion Tech Group app network](https://ziontechgroup.com/zion-app-network/).
 
-- 🏠 Home: https://ziontechgroup.com
-- 🗂️ Directory: https://ziontechgroup.com/zion-app-network/
-- 🐙 Hub: https://github.com/Zion-support/zion-app-network
-- 🌐 Live app: https://ziontechgroup.com/quote-builder-ai/
-- 🔗 Related: [Proposal Builder AI](https://ziontechgroup.com/proposal-builder-ai/) · [Zion AI Sales Intelligence](https://ziontechgroup.com/zion-ai-sales-intelligence/) · [Discovery](https://ziontechgroup.com/discovery/)
+- [Service Cost Planner — English](https://ziontechgroup.com/quote-builder-ai/)
+- [Português](https://ziontechgroup.com/quote-builder-ai/pt/) · [Español](https://ziontechgroup.com/quote-builder-ai/es/) · [Français](https://ziontechgroup.com/quote-builder-ai/fr/) · [Deutsch](https://ziontechgroup.com/quote-builder-ai/de/)
+- [Catalog](https://ziontechgroup.com/apps/) · [Free Discovery](https://ziontechgroup.com/discovery/)
+- [Network source](https://github.com/Zion-support/zion-app-network)
 
-© 2026 Zion Tech Group.
+This resource performs local arithmetic from user-supplied costs. Check its scope, assumptions and review status before using an output in a commercial process.
